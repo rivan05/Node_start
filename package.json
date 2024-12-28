@@ -1,0 +1,22 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file .env server.js"
+  },
+  "author": "ris",
+  "license": "ISC",
+  "description": "Node.js first",
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "c": "file:"
+  }
+}
